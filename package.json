@@ -1,0 +1,19 @@
+{
+  "name": "emptyproject",
+  "version": "1.0.0",
+  "description": "empty project to start from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyunyun75/emptyProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yyunyun75/emptyProject/issues"
+  },
+  "homepage": "https://github.com/yyunyun75/emptyProject#readme"
+}
