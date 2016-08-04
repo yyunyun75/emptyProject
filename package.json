@@ -4,7 +4,7 @@
   "description": "empty project to start from scratch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preinstall": "npm install -g grunt-cli"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/yyunyun75/emptyProject/issues"
   },
-  "homepage": "https://github.com/yyunyun75/emptyProject#readme"
+  "homepage": "https://github.com/yyunyun75/emptyProject#readme",
+  "devDependencies": {
+    "es6ify": "^1.6.0",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "load-grunt-tasks": "^3.5.0"
+  }
 }
